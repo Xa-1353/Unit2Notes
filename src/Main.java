@@ -26,5 +26,8 @@ public class Main {
 
         // range = upper - lower +1
         //(int)(Math.random() * range + lower)
+
+        int d6 = (int)(Math.random()*6 + 1);
+        out.println("you rolled: " + d6);
     }
 }
